@@ -26,7 +26,7 @@ public class DetalleDesastre extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
 }
-public DefaultTableModel getModel() {
+    public DefaultTableModel getModel() {
         return model;
     }
     private void detalleDesaparecidos(){
@@ -39,7 +39,6 @@ public DefaultTableModel getModel() {
         this.tablePanel.add(jScrollPane);
     }
     private void agregarBoton(){
-
 
         JButton addContactButton = new JButton("Mostrar personas desaparecidas");
         addContactButton.addActionListener(e ->detalleDesaparecidos() );
