@@ -1,0 +1,8 @@
+-Sub dominio del problema: Desastres geofisicos.
+-Clases:
+    -Desastre Natural
+    -Desastre Geofisico
+    -Terremoto
+    -Erupcion
+    -Persona afectada
+    -Impacto economico
